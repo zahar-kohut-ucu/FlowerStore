@@ -20,7 +20,11 @@ public class FlowerPack {
         return flower.getPrice() * quantity;
     }
 
-    public void setQuantity(int quantity) {
-        this.quantity = quantity < 0 ? 0 : quantity;
+    public void setQuantity(int quantityToSet) {
+        if (quantityToSet < 0) {
+            quantity = 0;
+        } else {
+            quantity = quantityToSet;
+        }
     }
 }

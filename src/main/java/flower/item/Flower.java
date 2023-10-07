@@ -5,15 +5,17 @@ import lombok.Setter;
 
 @Setter @Getter
 public class Flower extends Item {
+    final int defaultSepal = 69;
+    final double defaultPrice = 4.2;
     private double sepalLength;
     private FlowerColor color;
     private double price;
     private FlowerType flowerType;
 
     public Flower() {
-        sepalLength = 69;
+        sepalLength = defaultSepal;
         color = FlowerColor.RED;
-        price = 4.2;
+        price = defaultPrice;
         flowerType = FlowerType.ROSE;
     }
 
