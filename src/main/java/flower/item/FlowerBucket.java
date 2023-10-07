@@ -2,8 +2,11 @@ package flower.item;
 import java.util.ArrayList;
 import java.util.List;
 
+import lombok.Getter;
+
 public class FlowerBucket {
-    List<FlowerPack> flowerPacks = new ArrayList<>();
+    @Getter
+    private List<FlowerPack> flowerPacks = new ArrayList<>();
 
     public void add(FlowerPack flowerPack) {
         flowerPacks.add(flowerPack);

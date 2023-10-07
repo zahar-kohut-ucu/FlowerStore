@@ -7,12 +7,12 @@ public class FlowerPack {
     private int quantity;
 
     public FlowerPack(Flower flower) {
-        this.flower = new Flower (flower);
+        this.flower = new Flower(flower);
         this.quantity = 1;
     }
 
     public FlowerPack(Flower flower, int quantity) {
-        this.flower = new Flower (flower);
+        this.flower = new Flower(flower);
         this.quantity = quantity;
     }
 
