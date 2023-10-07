@@ -3,8 +3,6 @@ package flower.item;
 import lombok.Getter;
 import lombok.Setter;
 
-
-
 @Setter @Getter
 public class Flower extends Item {
     private double sepalLength;
