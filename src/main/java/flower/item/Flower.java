@@ -5,8 +5,8 @@ import lombok.Setter;
 
 @Setter @Getter
 public class Flower extends Item {
-    final int defaultSepal = 69;
-    final double defaultPrice = 4.2;
+    private final int defaultSepal = 69;
+    private final double defaultPrice = 4.2;
     private double sepalLength;
     private FlowerColor color;
     private double price;
